@@ -4,9 +4,9 @@
 
 /**
  * main - prints the last digit of a random generated number
- * and if it greater than 5, less than 6 or equal to 0
+ * and whether it is greater than 5, less than 6 or equal to 0.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
