@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: 'print alphabets in lower case but q and e'
+ * Description: prints the alphabets
  *
  * Return: Always 0 (Success)
  */
