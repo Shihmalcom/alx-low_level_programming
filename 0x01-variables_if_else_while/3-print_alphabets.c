@@ -14,6 +14,6 @@ int main(void)
 		putchar(alp);
 	for (alp = 'A'; alp <= 'Z'; alp++)
 		putchar(alp);
-	putcha('\n');
+	putchar('\n');
 	return (0);
 }
