@@ -10,7 +10,7 @@ int main(void)
 {
 	char alp;
 
-	for (alp = 'a'; alp = 'z'; alp++)
+	for (alp = 'a'; alp <= 'z'; alp++)
 	{
 		if (alp != 'e' && alp != 'z')
 			putchar(alp);
