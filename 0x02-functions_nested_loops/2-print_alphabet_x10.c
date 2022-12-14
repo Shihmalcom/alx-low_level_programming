@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 - entry point
  *
- * Return: 0
+ * Return: x10 a-z
  */
 void print_alphabet_x10(void)
 {
@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	int d;
 
 	d = 0;
-	while (d <= 10)
+	while (d < 10)
 	{
 		for (a = 'a'; a <= 'z'; a++)
 		{
