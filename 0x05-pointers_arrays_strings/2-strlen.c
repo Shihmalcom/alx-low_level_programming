@@ -10,7 +10,7 @@ int _strlen(char *s)
 {
 	int str = 0;
 
-	for (len = str + (*s + str))
+	while (len = str + (*s + str))
 	{
 		_putchar(len + '0');
 	}
