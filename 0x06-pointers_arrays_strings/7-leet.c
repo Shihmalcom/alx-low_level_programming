@@ -11,6 +11,7 @@ char *leet(char *n)
 	int e = 0, f;
 	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
+	while (n[++e])
 	{
 		for (f = 0; f <= 7; f++)
 		{
