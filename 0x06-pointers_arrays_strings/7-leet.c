@@ -14,7 +14,8 @@ char *leet(char *n)
 	{
 		for (f = 0; f <= 7; f++)
 		{
-			if (n[e] == leet[f] || n[e] - 32 == leet[f])
+			if (n[e] == leet[f] ||
+			n[e] - 32 == leet[f])
 				n[e] = f + '0';
 		}
 	}
